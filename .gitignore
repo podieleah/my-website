@@ -1,9 +1,15 @@
+README.md
+terraform.tfvars
+infrastructure/terraform.tfvars
+infrastructure/*.tfstate
+infrastructure/*.tfstate.*
+infrastructure/.terraform/
+infrastructure/.terraform.lock.hcl
+# Python
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
-.env
-.venv/
 venv/
+# OS
 .DS_Store
-*.log
+# Keys
+*.pem
