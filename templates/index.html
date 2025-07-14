@@ -1,0 +1,71 @@
+{% extends "base.html" %}
+
+{% block content %}
+<!-- Hero Section -->
+<section class="hero section">
+    <div class="container">
+        <h1 class="hero-title">Jodie Coleman</h1>
+        <h2 class="hero-subtitle">Site Reliability Engineer</h2>
+        <p class="hero-description">
+            Hi! I'm a career changer who made the leap from 10+ years in emergency services to tech in October 2023! In just under two years as a Site Reliability Engineer, I've been promoted from Graduate to Mid-level while tackling everything from AWS cost optimization to designing enterprise-wide monitoring solutions. I learn best by diving in headfirst, making mistakes, and figuring out better ways forward — which has served me well so far. Now I'm looking for Cloud/Platform Engineer roles where I can keep building, keep learning, and keep occasionally breaking things in the name of progress. Curious about the projects I didn't mention or want to know more about my unconventional journey? Get in touch.
+        </p>
+    </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects" class="section">
+    <div class="container">
+        <h2 class="section-title">Featured Project</h2>
+        <p class="section-subtitle">
+            Demonstrating the technical skills and platform thinking I've developed since my career transition
+        </p>
+        
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3 class="project-title">
+                    <i class="fas fa-rocket"></i>
+                    Portfolio Platform
+                </h3>
+                <p class="project-description">
+                    This portfolio project demonstrates my platform engineering capabilities and technical growth. 
+                    Built to showcase the skills I've developed since transitioning into tech - from infrastructure 
+                    as code and containerization to CI/CD pipelines and automated deployment on AWS. A practical 
+                    example of the platforms I can build in my next role.
+                </p>
+                <div class="tech-stack">
+                    <span class="tech-tag">Flask</span>
+                    <span class="tech-tag">Docker</span>
+                    <span class="tech-tag">Terraform</span>
+                    <span class="tech-tag">AWS</span>
+                    <span class="tech-tag">GitHub Actions</span>
+                    <span class="tech-tag">CloudWatch</span>
+                </div>
+                <a href="https://github.com/podieleah/my-website" class="project-link">
+                    View on GitHub <i class="fas fa-external-link-alt"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="section">
+    <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="section-subtitle">
+            Ready to discuss Platform/Cloud Engineer opportunities and how my SRE experience translates to building developer platforms
+        </p>
+        
+        <div class="contact-buttons">
+            <a href="https://linkedin.com/in/jodie-coleman-sre" class="contact-btn primary" target="_blank">
+                <i class="fab fa-linkedin"></i>
+                LinkedIn
+            </a>
+            <a href="mailto:jodiecoleman1@outlook.com" class="contact-btn">
+                <i class="fas fa-envelope"></i>
+                Email
+            </a>
+        </div>
+    </div>
+</section>
+{% endblock %}
