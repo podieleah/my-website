@@ -67,7 +67,7 @@ graph TD
 ## 📁 Project Structure
 
 ```
-portfolio-site/
+my-website/
 ├── app.py                 # Flask application
 ├── requirements.txt       # Python dependencies
 ├── Dockerfile            # Container configuration
