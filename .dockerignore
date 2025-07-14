@@ -51,7 +51,6 @@ terraform.tfvars
 
 # Docker
 .dockerignore
-Dockerfile
 docker-compose*.yml
 
 # CI/CD
